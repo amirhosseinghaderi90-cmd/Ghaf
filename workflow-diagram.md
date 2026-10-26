@@ -1,11 +1,15 @@
+# نمودار جریان کار انتخاب واحد
+
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph University ["دانشگاه / سیستم"]
+        direction LR
         U_Start(( )) --> U_Task1["تعریف دروس ارائه شده"]
         U_Task1 --> U_Task2["دسترسی دادن به دانشجویان"]
     end
 
     subgraph Student ["دانشجو"]
+        direction LR
         S_Start(( )) --> S_Task1["ورود به کارتابل انتخاب واحد"]
         U_Task2 --> S_Task1
         S_Task1 --> S_Task2["اضافه و حذف از سبد دروس انتخابی"]
