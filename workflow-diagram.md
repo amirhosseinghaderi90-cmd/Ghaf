@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     subgraph University ["دانشگاه / سیستم"]
         U_Start(( )) --> U_Task1["تعریف دروس ارائه شده"]
