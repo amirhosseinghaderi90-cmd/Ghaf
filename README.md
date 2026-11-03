@@ -37,5 +37,6 @@
 ---
 
 ## 📁 مستندات فنی
+* برای بررسی جریان کاری فرآیندها و تعاملات سامانه، به سند [نمودار فعالیت (Activity Diagram)](<docs/ActiveDiagram>) مراجعه فرمایید.
 * برای مطالعهٔ شرح کامل نیازمندی‌های سیستم، به سند [تحلیل نیازمندی‌ها (SRS)](docs/SoftwareRequirementSpecification/SRS.md) مراجعه فرمایید.
 * برای مشاهده تمامی نمودار های توالی سیستم، به سند [Sequence Diagram](<docs/Sequence Diagram/Sequence Diagram.md>) مراجعه فرمایید.
